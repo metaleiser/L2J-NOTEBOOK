@@ -1,0 +1,11 @@
+# L2J Notebook inbox — External Research Quarantine
+
+Place external research (ChatGPT, web, GitHub, forks) here as Markdown files.
+
+**Rules**:
+1. Each file records origin, date, and status EXTERNAL.
+2. Cline processes inbox → extracts load‑bearing claims → verifies locally.
+3. Results: VERIFIED / REFUTED / HYPOTHESIS / PARKED.
+4. The original external file is NEVER modified.
+
+See USER_MANUAL.md §5 for the full workflow.

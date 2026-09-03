@@ -1,0 +1,73 @@
+﻿2026.09.01 17:19:46,464	INFO	3	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] gate enabled - scheduling spike: start in 60000 ms, observe 45000 ms, watchdog 240000 ms.
+2026.09.01 17:19:58,313	INFO	3	org.l2jmobius.gameserver.GameServer	GameServer: Server loaded in 81 seconds.
+2026.09.01 17:19:58,490	INFO	83	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Registered on login as Server 2: Sieghardt
+2026.09.01 17:20:46,467	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] ===== D-0001 SPIKE START =====
+2026.09.01 17:20:46,468	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] runtime gate AutoPlayConfig.ENABLE_AUTO_PLAY=true
+2026.09.01 17:20:46,468	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] isolation ok: World players=0 | visible objects=46617
+2026.09.01 17:20:46,495	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] anchor npc=Elder Keltir(20544) pos=-81254,246521,-3680 dist=162
+2026.09.01 17:20:46,606	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] loaded Player objectId=268483035 name=ADMIN level=1 client=NULL
+2026.09.01 17:20:46,606	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] state: online=true inOfflineMode=true offlinePlay=true
+2026.09.01 17:20:46,613	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] world.getPlayer(id)==bot -> true | spawned=true | pos=-81454,246521,-3680
+2026.09.01 17:20:46,613	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] autoplay settings: targetMode=1 pickup=false shortRange=false autoActions=[2]
+2026.09.01 17:20:46,617	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] startAutoPlay -> isAutoPlaying=true | P1 engine active=true
+2026.09.01 17:20:46,618	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] polling every 1000 ms for 45000 ms.
+2026.09.01 17:20:47,624	INFO	48	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 1] pos=-81425,246521,-3680 | tgt=Elder Keltir(268480028) hp=90/90 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=126/126
+2026.09.01 17:20:47,624	INFO	48	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] B3a: target acquired -> Elder Keltir(268480028) hp=90/90
+2026.09.01 17:20:47,624	INFO	48	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] B3a: attack initiated -> Elder Keltir(268480028) hp=90/90
+2026.09.01 17:20:48,618	INFO	55	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 2] pos=-81327,246521,-3680 | tgt=Elder Keltir(268480028) hp=90/90 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=126/126
+2026.09.01 17:20:49,619	INFO	55	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 3] pos=-81289,246521,-3680 | tgt=Elder Keltir(268480028) hp=78/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=126/126
+2026.09.01 17:20:49,619	INFO	55	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] B3b: real HP change observed on target (90 -> 78)
+2026.09.01 17:20:50,619	INFO	41	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 4] pos=-81289,246521,-3680 | tgt=Elder Keltir(268480028) hp=78/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=115/126
+2026.09.01 17:20:51,619	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 5] pos=-81289,246521,-3680 | tgt=Elder Keltir(268480028) hp=67/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=115/126
+2026.09.01 17:20:52,619	INFO	56	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 6] pos=-81289,246521,-3680 | tgt=Elder Keltir(268480028) hp=57/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=102/126
+2026.09.01 17:20:53,619	INFO	54	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 7] pos=-81289,246521,-3680 | tgt=Elder Keltir(268480028) hp=44/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=105/126
+2026.09.01 17:20:54,619	INFO	52	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 8] pos=-81289,246521,-3680 | tgt=Elder Keltir(268480028) hp=32/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=105/126
+2026.09.01 17:20:55,619	INFO	41	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 9] pos=-81289,246521,-3680 | tgt=Elder Keltir(268480028) hp=21/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=105/126
+2026.09.01 17:20:56,620	INFO	48	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 10] pos=-81289,246521,-3680 | tgt=Elder Keltir(268480028) hp=21/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=96/126
+2026.09.01 17:20:57,619	INFO	50	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 11] pos=-81289,246521,-3680 | tgt=Elder Keltir(268480028) hp=9/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=83/126
+2026.09.01 17:20:58,619	INFO	54	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 12] pos=-81280,246524,-3680 | tgt=Elder Keltir(268480031) hp=90/90 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=145/145
+2026.09.01 17:20:59,619	INFO	45	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 13] pos=-81196,246558,-3680 | tgt=Elder Keltir(268480031) hp=90/90 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=145/145
+2026.09.01 17:21:00,620	INFO	47	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 14] pos=-81111,246592,-3680 | tgt=Elder Keltir(268480031) hp=90/90 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=145/145
+2026.09.01 17:21:01,619	INFO	42	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 15] pos=-81043,246620,-3680 | tgt=Elder Keltir(268480031) hp=90/90 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=145/145
+2026.09.01 17:21:02,619	INFO	51	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 16] pos=-80962,246653,-3680 | tgt=Elder Keltir(268480031) hp=90/90 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=145/145
+2026.09.01 17:21:03,619	INFO	55	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 17] pos=-80908,246676,-3680 | tgt=Elder Keltir(268480031) hp=90/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=145/145
+2026.09.01 17:21:04,619	INFO	45	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 18] pos=-80908,246676,-3680 | tgt=Elder Keltir(268480031) hp=73/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=145/145
+2026.09.01 17:21:05,620	INFO	48	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 19] pos=-80908,246676,-3680 | tgt=Elder Keltir(268480031) hp=60/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=145/145
+2026.09.01 17:21:06,619	INFO	55	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 20] pos=-80908,246676,-3680 | tgt=Elder Keltir(268480031) hp=60/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=134/145
+2026.09.01 17:21:07,620	INFO	50	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 21] pos=-80908,246676,-3680 | tgt=Elder Keltir(268480031) hp=51/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=134/145
+2026.09.01 17:21:08,619	INFO	52	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 22] pos=-80908,246676,-3680 | tgt=Elder Keltir(268480031) hp=40/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=123/145
+2026.09.01 17:21:09,619	INFO	50	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 23] pos=-80908,246676,-3680 | tgt=Elder Keltir(268480031) hp=40/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=126/145
+2026.09.01 17:21:10,619	INFO	51	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 24] pos=-80908,246676,-3680 | tgt=Elder Keltir(268480031) hp=30/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=114/145
+2026.09.01 17:21:11,619	INFO	56	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 25] pos=-80908,246676,-3680 | tgt=Elder Keltir(268480031) hp=17/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=114/145
+2026.09.01 17:21:12,620	INFO	52	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 26] pos=-80908,246676,-3680 | tgt=Elder Keltir(268480031) hp=3/90 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=105/145
+2026.09.01 17:21:13,619	INFO	43	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 27] pos=-80908,246676,-3680 | tgt=Elder Keltir(268480031) hp=0/90 DEAD | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=163/163
+2026.09.01 17:21:13,619	INFO	43	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] B3d: mob death observed.
+2026.09.01 17:21:14,619	INFO	44	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 28] pos=-80923,246616,-3680 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=163/163
+2026.09.01 17:21:15,619	INFO	45	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 29] pos=-80945,246529,-3680 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=163/163
+2026.09.01 17:21:16,620	INFO	55	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 30] pos=-80967,246443,-3680 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=163/163
+2026.09.01 17:21:17,620	INFO	46	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 31] pos=-80989,246357,-3680 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=163/163
+2026.09.01 17:21:18,619	INFO	52	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 32] pos=-81012,246271,-3680 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=163/163
+2026.09.01 17:21:19,620	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 33] pos=-81035,246185,-3680 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=163/163
+2026.09.01 17:21:20,620	INFO	43	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 34] pos=-81057,246098,-3680 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=163/163
+2026.09.01 17:21:21,619	INFO	52	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 35] pos=-81081,246011,-3680 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=163/163
+2026.09.01 17:21:22,619	INFO	55	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 36] pos=-81104,245924,-3680 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=163/163
+2026.09.01 17:21:23,619	INFO	51	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 37] pos=-81127,245837,-3680 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=163/163
+2026.09.01 17:21:24,619	INFO	46	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 38] pos=-81150,245749,-3686 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=163/163
+2026.09.01 17:21:25,620	INFO	47	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 39] pos=-81163,245705,-3691 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=163/163
+2026.09.01 17:21:26,619	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 40] pos=-81173,245669,-3695 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=false casting=false moving=true | ap=true botHP=163/163
+2026.09.01 17:21:27,620	INFO	56	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 41] pos=-81197,245584,-3720 | tgt=Bearded Keltir(268480022) hp=62/62 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=163/163
+2026.09.01 17:21:28,619	INFO	55	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 42] pos=-81197,245584,-3720 | tgt=Bearded Keltir(268480022) hp=49/62 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=163/163
+2026.09.01 17:21:29,619	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 43] pos=-81197,245584,-3720 | tgt=Bearded Keltir(268480022) hp=49/62 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=155/163
+2026.09.01 17:21:30,619	INFO	55	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 44] pos=-81197,245584,-3720 | tgt=Bearded Keltir(268480022) hp=37/62 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=155/163
+2026.09.01 17:21:31,620	INFO	54	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] [poll 45] pos=-81197,245584,-3720 | tgt=Bearded Keltir(268480022) hp=39/62 | ai=ATTACK | attacking=true casting=false moving=false | ap=true botHP=147/163
+2026.09.01 17:21:41,467	INFO	41	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] ===== TEARDOWN BEGIN =====
+2026.09.01 17:21:41,467	INFO	41	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] teardown pre-state: spawned=true ap=true offlinePlay=true online=true dead=false
+2026.09.01 17:21:41,470	INFO	41	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] teardown done: World.getPlayer(id)=null | spawned=false | ap=false | offlinePlay=false | online=false | client=NULL
+2026.09.01 17:21:44,469	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] ===== D-0001 SPIKE VERDICT =====
+2026.09.01 17:21:44,471	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] P1 engine activation (client==null + autoplay active + no shutdown): true
+2026.09.01 17:21:44,472	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] P2 autonomous targeting: true | movement: true
+2026.09.01 17:21:44,473	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] B3a attack initiated: true | B3b real HP change: true | B3c cycle continued: true | B3d mob death: true
+2026.09.01 17:21:44,474	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] P4 exceptions during spike: false | polls=57 | attackTicks=45
+2026.09.01 17:21:44,474	INFO	53	custom.BotSpikeD01.BotSpikeD01	[BotSpikeD01] spike finished - scheduling clean server shutdown in 15 s (restores config state).
+2026.09.01 17:21:44,474	WARNING	53	org.l2jmobius.gameserver.Shutdown	Server scheduled restart issued shutdown command. Shutdown in 15 seconds!
+2026.09.01 17:22:04,714	INFO	86	org.l2jmobius.gameserver.Shutdown	The server has been successfully shut down in 5seconds.
