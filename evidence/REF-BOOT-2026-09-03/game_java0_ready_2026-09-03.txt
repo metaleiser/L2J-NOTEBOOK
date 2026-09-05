@@ -1,0 +1,4 @@
+﻿2026.09.03 23:22:13,147	INFO	3	org.l2jmobius.gameserver.GameServer	GameServer: Maximum number of connected players is 2000.
+2026.09.03 23:22:13,151	INFO	3	org.l2jmobius.gameserver.GameServer	GameServer: Server loaded in 179 seconds.
+2026.09.03 23:22:13,311	INFO	105	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.09.03 23:22:14,343	INFO	105	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Registered on login as Server 2: Sieghardt

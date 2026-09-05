@@ -1,0 +1,1 @@
+﻿2026.09.03 23:21:58,305	INFO	3	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: 42348 spawns have been initialized!

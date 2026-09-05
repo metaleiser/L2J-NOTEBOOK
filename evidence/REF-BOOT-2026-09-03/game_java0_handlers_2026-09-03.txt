@@ -1,0 +1,14 @@
+﻿2026.09.03 23:20:11,923	INFO	3	handlers.MasterHandler	Loading Handlers...
+2026.09.03 23:20:12,234	INFO	3	handlers.MasterHandler	ActionHandler: Loaded 10 handlers.
+2026.09.03 23:20:12,234	INFO	3	handlers.MasterHandler	ActionShiftHandler: Loaded 6 handlers.
+2026.09.03 23:20:12,235	INFO	3	handlers.MasterHandler	AdminCommandHandler: Loaded 481 handlers.
+2026.09.03 23:20:12,235	INFO	3	handlers.MasterHandler	BypassHandler: Loaded 47 handlers.
+2026.09.03 23:20:12,235	INFO	3	handlers.MasterHandler	ChatHandler: Loaded 14 handlers.
+2026.09.03 23:20:12,235	INFO	3	handlers.MasterHandler	CommunityBoardHandler: Loaded 25 handlers.
+2026.09.03 23:20:12,235	INFO	3	handlers.MasterHandler	ItemHandler: Loaded 30 handlers.
+2026.09.03 23:20:12,236	INFO	3	handlers.MasterHandler	PunishmentHandler: Loaded 3 handlers.
+2026.09.03 23:20:12,236	INFO	3	handlers.MasterHandler	UserCommandHandler: Loaded 17 handlers.
+2026.09.03 23:20:12,236	INFO	3	handlers.MasterHandler	VoicedCommandHandler: Loaded 15 handlers.
+2026.09.03 23:20:12,236	INFO	3	handlers.MasterHandler	TargetHandler: Loaded 34 handlers.
+2026.09.03 23:20:12,236	INFO	3	handlers.MasterHandler	Handlers Loaded...
+2026.09.03 23:21:29,460	INFO	3	org.l2jmobius.gameserver.model.quest.Quest	Handy's Block Checker Event is enabled

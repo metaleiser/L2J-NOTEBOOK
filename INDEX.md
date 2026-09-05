@@ -8,7 +8,7 @@ This is the durable, selfâ€‘auditable memory of what we have learned about 
 
 - **Target**: L2J Mobius CT 2.6 HighFive @ `e2518ab108`
 - **Workspace**: `E:\L2J MOBIUS IA`
-- **Runtime**: `L2J MOBIUS H5 SERVER` (clean rebuild of e2518ab + datapack)
+- **Runtime**: `L2J_Mobius_CT_2.6_HighFive` (clean rebuild of e2518ab + datapack)
 
 ## Artifact Index
 
@@ -16,7 +16,7 @@ This is the durable, selfâ€‘auditable memory of what we have learned about 
 
 | File | Status | Baseline |
 |------|--------|----------|
-| `CLAIMS.md` | 19 claims (CL-0001..0019) | e2518ab108 |
+| `CLAIMS.md` | 23 claims (CL-0001..0023) | e2518ab108 |
 
 ### Knowledge (domain artifacts)
 
@@ -42,6 +42,7 @@ This is the durable, selfâ€‘auditable memory of what we have learned about 
 | `investigations/INFORME_BOT_RESEARCH_2026-09-02.md` | 2026-09-02 | COMPLETE |
 | `investigations/INFORME_B1_BOT_ROLE_PRESETS_2026-09-02.md` | 2026-09-02 | IMPLEMENTED / EXECUTION PENDING |
 | `investigations/CLINE_KNOWLEDGE_PERSISTENCE_RETRIEVAL_2026-09-02.md` | 2026-09-02 | COMPLETE |
+| `investigations/INFORME_SERVER_LIFECYCLE_2026-09-03.md` | 2026-09-03 | COMPLETE / RUNTIME VERIFIED |
 | `investigations/TEMPORARY-ARCHER-MVP.md` | 2026-09-01 | NOT IMPLEMENTED |
 
 ### Evidence (immutable artifacts)
@@ -52,6 +53,7 @@ This is the durable, selfâ€‘auditable memory of what we have learned about 
 | `evidence/spikes/BotSpikeC03.class` | 86EAFBC3401A... |
 | `evidence/spikes/D0001/` (5 files) | MANIFEST.md |
 | `evidence/spikes/PartyAutoPlay/` | MANIFEST.md |
+| `evidence/REF-BOOT-2026-09-03/` (REF-BOOT validation log extracts) | MANIFEST.md |
 
 ### Inbox (quarantine for external research)
 

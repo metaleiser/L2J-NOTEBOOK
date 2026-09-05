@@ -24,6 +24,10 @@
 | CL-0017 | `//reload handler` does NOT substitute handler bytecode (ScriptClassLoader static final) | VERIFIED-SOURCE | e2518ab108 | SOURCE: ScriptExecutor.java:53; RUNTIME: //bs status 9669 B no effect until restart | — |
 | CL-0018 | `ScriptExecutor.java:53` static final SCRIPT_CLASS_LOADER prevents class redefinition | VERIFIED-SOURCE | e2518ab108 | SOURCE: ScriptExecutor.java:53, ScriptClassLoader | — |
 | CL-0019 | `//bs` validated by GM 2026-09-02: summon/dismiss, party, follow/assist/combat, stability | GM-VALIDATED | e2518ab108 | RUNTIME: java0.log 13:31-13:40; audit0.log 13:31:13; GM confirmation | — |
+| CL-0020 | REF-BOOT start procedure re-validated 2026-09-03: LoginServer READY ≈1s (ports 9014+2106); GameServer 4 READY signals in order (Handlers Loaded → 42348 spawns → Server loaded 179s → Registered Server 2) | VERIFIED-RUNTIME | e2518ab108 | RUNTIME: login/log/java0.log 23:18:41-42; game/log/java0.log 23:20-23:22; evidence/REF-BOOT-2026-09-03 · promotes_to: R-SRV001 | — |
+| CL-0021 | Method C shutdown (Stop-Process -Force) of GameServer+LoginServer verified 2026-09-03: processes terminated, ports 2106/9014/7777 closed, DB remained clean (0 online) with no players connected | VERIFIED-RUNTIME | e2518ab108 | RUNTIME: validation/REF_BOOT_VALIDATION_REPORT.md §Test 3 · promotes_to: R-SRV001 | — |
+| CL-0022 | `EnableGUI = False` required for headless/agent operation of both LoginServer and GameServer (Interface.ini); default `True` blocks non-GUI start | VERIFIED-RUNTIME | e2518ab108 | RUNTIME: validation/REF_BOOT_VALIDATION_REPORT.md §Files Modified · promotes_to: R-SRV001 | — |
+| CL-0023 | Direct `java -jar ../libs/LoginServer.jar` / `GameServer.jar` is equivalent to the VBS launchers (same JVM flags via java.cfg); both methods boot the same runtime | VERIFIED-RUNTIME | e2518ab108 | RUNTIME: validation/REF_BOOT_VALIDATION_REPORT.md §Test 1-2; CL-0020 · promotes_to: R-SRV001 | — |
 
 ## Legend
 
@@ -36,3 +40,4 @@
 - **STALE**: baseline changed, requires re‑verification
 - **SUPERSEDED**: replaced by a later claim
 - **PARKED**: interesting but not actionable
+- **`promotes_to: R-XXX`**: marks a claim that directly backs a public L2J-RECIPE recipe. Notebook keeps the evidence; the Recipe keeps the operational procedure.
