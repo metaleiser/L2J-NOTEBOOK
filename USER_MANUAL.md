@@ -130,3 +130,28 @@ Promotion follows a lightweight gate (see L2J‑RECIPE CONVENTION.md). The Noteb
 - A replacement for Git history
 - A diary of every conversation
 - A trivia collection
+
+## 16. Git synchronization & release flow (RECIPE + NOTEBOOK)
+
+Operational flow for promoting knowledge across the two repositories. Each repository has its own independent Git history.
+
+```
+WORK
+→ KNOWLEDGE CANDIDATE      (write into the private notebook: claim / evidence / investigation)
+→ HUMAN REVIEW             (GM decides: promote / park / discard — no push yet)
+→ RECIPE / NOTEBOOK UPDATE (apply the approved change per CONVENTION / USER_MANUAL)
+→ git diff review          (show `git status` + `git diff` per repo)
+→ COMMIT                   (one commit per logical change, per repo)
+→ PUSH                     (after explicit human review; NEVER automatic)
+→ other PC                 (clone or pull, then verify)
+```
+
+Rules:
+- One repo = one independent Git history (L2J-RECIPE public, L2J-NOTEBOOK private).
+- Never `--force`; never overwrite remote work.
+- On divergence: `pull` / `rebase` first, review, then push.
+- `push` only after explicit human review and approval.
+- Cline prepares changes and can stage/commit on approval, but must NOT make push an automatic action.
+- Keep the public/private separation: only GM-approved content goes to L2J-RECIPE; no private paths, real IDs, or credentials there.
+
+(The public repo does not duplicate this section; its promotion gate lives in L2J-RECIPE `USER_MANUAL.md §10` / `CONVENTION.md`.)

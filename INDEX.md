@@ -16,7 +16,7 @@ This is the durable, selfâ€‘auditable memory of what we have learned about 
 
 | File | Status | Baseline |
 |------|--------|----------|
-| `CLAIMS.md` | 23 claims (CL-0001..0023) | e2518ab108 |
+| `CLAIMS.md` | 24 claims (CL-0001..0024) | e2518ab108 · CL-0024 source @ 43ac8878f5 |
 
 ### Knowledge (domain artifacts)
 
@@ -43,6 +43,7 @@ This is the durable, selfâ€‘auditable memory of what we have learned about 
 | `investigations/INFORME_B1_BOT_ROLE_PRESETS_2026-09-02.md` | 2026-09-02 | IMPLEMENTED / EXECUTION PENDING |
 | `investigations/CLINE_KNOWLEDGE_PERSISTENCE_RETRIEVAL_2026-09-02.md` | 2026-09-02 | COMPLETE |
 | `investigations/INFORME_SERVER_LIFECYCLE_2026-09-03.md` | 2026-09-03 | COMPLETE / RUNTIME VERIFIED |
+| `investigations/MICROINFORME_REF_BOOT_2026-09-03.md` | 2026-09-03 | ARCHIVED (task self-audit, reference) |
 | `investigations/TEMPORARY-ARCHER-MVP.md` | 2026-09-01 | NOT IMPLEMENTED |
 
 ### Evidence (immutable artifacts)
