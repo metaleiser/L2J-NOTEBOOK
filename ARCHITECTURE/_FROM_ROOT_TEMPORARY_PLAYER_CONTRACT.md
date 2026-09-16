@@ -1,6 +1,6 @@
 # TEMPORARY PLAYER — TECHNICAL CONTRACT
 
-## Estado: PROPOSED · **Vigencia:** HISTORICAL · **Nota:** Contrato de diseño no implementado. Valor como documentación de intención arquitectónica.
+## Estado: PROPOSED · **Vigencia:** DUPLICATE (candidato) · **Authority:** knowledge/TEMPORARY-PLAYER-TECHNICAL-CONTRACT.md
 
 ## 1. Definición
 

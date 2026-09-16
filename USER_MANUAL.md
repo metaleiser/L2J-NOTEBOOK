@@ -155,3 +155,117 @@ Rules:
 - Keep the public/private separation: only GM-approved content goes to L2J-RECIPE; no private paths, real IDs, or credentials there.
 
 (The public repo does not duplicate this section; its promotion gate lives in L2J-RECIPE `USER_MANUAL.md §10` / `CONVENTION.md`.)
+## 17. NOTEBOOK GATE (gobernanza de conocimiento)
+
+### 17.1. Proposito
+
+El NOTEBOOK GATE decide si el resultado de una tarea merece convertirse en conocimiento permanente del Notebook.
+
+L2J Notebook NO es un historial de conversaciones ni un deposito de Markdown. Es memoria tecnica curada.
+
+### 17.2. Cuando guardar conocimiento
+
+Guardar SOLO cuando el resultado incluya:
+
+- Investigaciones tecnicas reutilizables (APIs, flujos, arquitectura)
+- Decisiones arquitectonicas (ADRs)
+- Claims respaldados por evidencia (file:line anchors)
+- APIs verificadas (firmas exactas, comportamiento documentado)
+- Restricciones importantes (APIs peligrosas, hazards)
+- Errores y trampas (enfoques descartados, APIs inexistentes)
+- Resultados de verificacion (spikes, validaciones runtime)
+- Conocimiento estable del proyecto
+
+### 17.3. Cuando NO guardar conocimiento
+
+NO guardar:
+
+- Logs rutinarios de ejecucion
+- Conversaciones o prompts completos
+- Informes de progreso sin conocimiento nuevo
+- Informacion temporal sin valor futuro
+- Duplicados de conocimiento existente
+- Hipotesis sin evidencia
+- Markdown creado solo por obligacion
+
+### 17.4. Busqueda previa obligatoria
+
+Antes de crear cualquier documento nuevo:
+
+1. Identificar que conocimiento se quiere conservar
+2. Consultar INDEX.md
+3. Buscar documentos relacionados en las carpetas tematicas
+4. Determinar si el conocimiento ya existe
+5. Si existe: actualizar el documento autoritativo
+6. Si no existe: crear uno nuevo solamente si es necesario
+7. Actualizar INDEX.md si corresponde
+
+### 17.5. Regla de duda
+
+Si existe duda razonable sobre si algo constituye conocimiento permanente, NO crear automaticamente un documento nuevo. Registrar la duda en el reporte de la task.
+
+### 17.6. Principio de autoridad
+
+ONE KNOWLEDGE - ONE AUTHORITATIVE LOCATION
+
+Cada pieza de conocimiento debe tener una unica ubicacion autoritativa. Usar referencias cruzadas en lugar de duplicar contenido.
+
+### 17.7. Estados de conocimiento (canonicos)
+
+| Estado | Definicion |
+|--------|------------|
+| VERIFIED | Confirmado por codigo, archivo, ejecucion o evidencia confiable |
+| INFERRED | Deduccion razonable basada en evidencia, no verificada directamente |
+| PROPOSED | Diseno futuro no implementado/verificado |
+| EXPERIMENTAL | Prueba temporal por validar |
+| NOT FOUND | Buscado explicitamente y no encontrado |
+
+Reglas:
+- PROPOSED != VERIFIED
+- INFERRED != VERIFIED
+- EXPERIMENTAL != VERIFIED
+- NOT FOUND != ABSENCIA ABSOLUTA
+- Nunca convertir una hipotesis en VERIFIED por repeticion
+
+### 17.8. Flujo del Gate
+
+```
+TASK COMPLETADA
+       /
+?HAY CONOCIMIENTO REUTILIZABLE?
+       /       /
+      NO      SISTEMA
+       /       /
+      FIN    BUSCAR EXISTENTE
+                 /
+           ?YA EXISTE?
+            /       /
+           SISTEMA       NO
+            /       /
+           /       /
+      ACTUALIZAR CREAR
+           /       /
+           /--/---/--
+                 /
+              VERIFY
+                 /
+            INDEX SI CORRESPONDE
+```
+
+### 17.9. Responsabilidad de Cline
+
+Despues de cada tarea ACT, Cline debe:
+
+1. Evaluar si existe conocimiento reutilizable
+2. Buscar en INDEX.md y documentos relacionados
+3. Verificar duplicacion
+4. Actualizar documento existente si corresponde
+5. Crear documento nuevo solamente si es necesario
+6. Actualizar INDEX.md
+7. Reportar en el resultado de la task
+
+### 17.10. Referencias
+
+- NOTA autoritativa: NOTEBOOK_GOVERNANCE.md
+- INDNice: INDEX.md
+- REGLAS de workspace: .clinerules/project.md

@@ -1,9 +1,8 @@
 # OPEN QUESTIONS AND VERIFICATION GAPS — Temporary Player / Clientless Archer
 
 > **Propósito:** Registrar todo hallazgo no resuelto, parcialmente verificado, o que requiere verificación adicional.
-> **Estado:** INFERRED · **Vigencia:** CURRENT · **Authority:** Preguntas abiertas y decisiones pendientes
+> **Estado:** Post-investigación source (plan mode)
 > **Target:** Mobius CT 2.6 HighFive
-> **Nota:** Sección 1 (VERIFIED FACTS V1-V21) es candidato a DUPLICATE de CLAIMS.md — pendiente de verificar en ACT-2
 
 ---
 
@@ -120,31 +119,3 @@
 | D4 | Paquete de TemporaryPlayerManager | manager o temporary nuevo | `org.l2jmobius.gameserver.temporary` |
 | D5 | Integration en Shutdown | Antes de saveData o en disconnectAll | Hook en disconnectAllCharacters (1 línea) |
 | D6 | Integration en Disconnection | En storeAndDelete o GameClient | GameClient.onDisconnection (1 línea) |
----
-
-## 8. SERVER LIFECYCLE (REF-BOOT / R-SRV001) — PREGUNTAS PENDIENTES
-
-> Estas preguntas NO son hechos. Son validaciones PARKED/UNKNOWN que quedan fuera de lo verificado.
-> **Separación de baseline:** el runtime verificado es L2J Mobius CT 2.6 HighFive @ `e2518ab108` (2026-09-03). La claim **CL-0024** se basa en evidencia de **upstream** `43ac8878f5` y NO está validada en el runtime `e2518ab108` (ver CLAIMS.md).
-
-| # | Pregunta / gap | Evidencia actual | Estado | Prioridad |
-|---|----------------|------------------|--------|-----------|
-| UQ-1 | Validación real de `//shutdown N` (Method A) con cliente de juego + sesión GM; confirmar que ejecuta shutdown hooks y persiste personajes/traders/eventos correctamente | Start/Stop(Method C)/Restart verificados por runtime 2026-09-03; Method A NO probado (sin cliente) | PARKED/UNKNOWN | ALTA |
-| UQ-2 | accessLevel requerido para el comando `//shutdown N` en este baseline (¿≥ 100?) | GM char de prueba tenía accesslevel 70; regla ≥ 100 no confirmada | PARKED/UNKNOWN | MEDIA |
-| UQ-3 | Comportamiento de shutdown forzado (Method C) mientras existen bots (`//bs` squad) o jugadores conectados | DB limpia solo con 0 conexiones; no se forzó con bots/jugadores activos | PARKED/UNKNOWN | MEDIA |
-| UQ-4 | Cierre por ventana: cerrar la ventana Java / WM_CLOSE NO detuvo el runtime en la prueba; determinar si existe algún cierre de ventana limpio | VERIFIED-RUNTIME 2026-09-03 (cierre por ventana ineficaz en el runtime probado) | VERIFICADO (comportamiento); sin alternativa limpia encontrada | BAJA |
-
-Notas:
-- Start / Stop / Restart fueron validados mediante el procedimiento disponible (lanzadores VBS y arranque directo `java -jar`, shutdown Method C). NO presentar `//shutdown N` como runtime-validated.
-- Estos items PARKED también residen en `R-SRV001` §KNOWN LIMITS y en `investigations/INFORME_SERVER_LIFECYCLE_2026-09-03.md` §Pendientes; aquí se centraliza su seguimiento.
----
-
-## 9. COMMUNITY BOARD — OPEN QUESTIONS (L2J_Mobius_CT_2.6_HighFive)
-
-Baja prioridad; no bloquean el conocimiento operativo del Community Board.
-
-| # | Pregunta | Evidencia actual | Estado | Prioridad |
-|---|----------|------------------|--------|-----------|
-| CB-1 | Consumo real de `BBSDefault` (General.ini): no se encontro su lectura en el source revisado. Posible clave legacy sin uso. | grep de `BBS_DEFAULT`/`BBSDefault` sin hallazgos en runtime/config loaders | OPEN | BAJA |
-| CB-2 | Comportamiento empirico exacto de `_bbstop;../...` en HtmCache modo lazy (path traversal). A nivel de codigo no hay filtro/sanitizacion; el impacto real (acceso a HTML fuera de CommunityBoard) no fue probado empiricamente. | HomeBoard.java:159-167 (sin normalizacion); HtmCache.java (path relativo a DATAPACK_ROOT) | OPEN | BAJA |
-| CB-3 | Resolucion concreta de posibles prefijos solapados mediante `startsWith()` en `getHandler()`. Afecta si dos handlers registran prefijos que sean substring uno del otro. | CommunityBoardHandler.java:55-70 | OPEN (teorico) | BAJA |

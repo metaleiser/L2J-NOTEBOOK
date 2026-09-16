@@ -2,7 +2,7 @@
 
 > **Propósito:** Catálogo de APIs seguras, inseguras y condicionalmente seguras.
 > **Target:** Mobius CT 2.6 HighFive | **Confianza:** ALTA (source evidence)
-> **Estado:** VERIFIED · **Evidence:** SOURCE · **Vigencia:** CURRENT
+> **Estado:** VERIFIED · **Evidence:** SOURCE · **Vigencia:** DUPLICATE (candidato) · **Authority:** knowledge/CONSTRAINTS.md
 
 ---
 

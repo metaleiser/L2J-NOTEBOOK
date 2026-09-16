@@ -1,7 +1,6 @@
 # SOURCE EVIDENCE — Temporary Player / Clientless Archer (Mobius CT 2.6 HighFive)
 
-> **Estado:** VERIFIED · **Evidence:** SOURCE · **Vigencia:** EVIDENCE
-> **Claims consolidados:** Ver CLAIMS.md para versión resumida de claims atómicos
+> **Estado:** VERIFICADO contra fuente local
 > **Ruta base upstream:** `UPSTREAM\L2J_Mobius\L2J_Mobius_CT_2.6_HighFive\java\org\l2jmobius\gameserver\`
 > **Fecha verificación:** Marzo 2026
 > **Confianza general:** ALTA (todas las referencias son líneas exactas del source real)

@@ -1,6 +1,6 @@
 # MOBIUS — MAPA TÉCNICO DE PLAYER CLIENTLESS TEMPORAL
 
-## Estado: INFERRED · **Vigencia:** HISTORICAL · **Nota:** Arquitectura no adoptada. Valor histórico/evidencial.
+## Estado: INFERRED · **Vigencia:** DUPLICATE (candidato) · **Authority:** knowledge/TEMP-PLAYER-TECHNICAL-MAP.md
 
 ## 1. Objetivo
 
