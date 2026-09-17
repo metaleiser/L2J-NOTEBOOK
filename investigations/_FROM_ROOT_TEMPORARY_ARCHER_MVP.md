@@ -1,5 +1,7 @@
 # TEMPORARY ARCHER — MINIMUM VIABLE PROTOTYPE
 
+> **FASE 6B ARCHIVAL:** Historical snapshot · **Authority:** `investigations/TEMPORARY-ARCHER-MVP.md` · Content unchanged (read-only).
+
 ## 1. Objetivo del MVP
 
 Crear un único personaje auxiliar:

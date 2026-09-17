@@ -3,6 +3,7 @@
 > **Estado:** VERIFICADO contra fuente local
 > **Ruta base upstream:** `UPSTREAM\L2J_Mobius\L2J_Mobius_CT_2.6_HighFive\java\org\l2jmobius\gameserver\`
 > **Fecha verificación:** Marzo 2026
+> **FASE 6B ARCHIVAL:** Historical snapshot · **Authority:** `knowledge/SOURCE_EVIDENCE.md` · Content unchanged (read-only).
 > **Confianza general:** ALTA (todas las referencias son líneas exactas del source real)
 
 ---

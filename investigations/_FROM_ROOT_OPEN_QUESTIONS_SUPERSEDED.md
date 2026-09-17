@@ -2,6 +2,7 @@
 
 > **Propósito:** Registrar todo hallazgo no resuelto, parcialmente verificado, o que requiere verificación adicional.
 > **Estado:** Post-investigación source (plan mode)
+> **FASE 6B ARCHIVAL:** Historical snapshot — SUPERSEDED · **Authority:** `OPEN_QUESTIONS.md` (raíz, vigente) · Content unchanged (read-only).
 > **Target:** Mobius CT 2.6 HighFive
 
 ---
